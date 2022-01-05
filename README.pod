@@ -1,0 +1,36 @@
+=pod
+
+=head1 NAME
+
+RandomPassword.pl the CGI.pm version
+
+=head1 SYNOPSIS
+
+Place this in the web server CGI area.  Run from the web.  Displays 
+in the webpage.  (Best to use HTTPS).
+
+=head1 REQUIREMENTS
+
+=over 12
+
+=item C<Perl module CGI.pm>
+
+=item C<External file /usr/share/dict/words>
+
+=item C<External file /srv/www/cgi-bin/zippytalks.txt>
+
+=back
+
+=head1 DESCRIPTION
+
+The zippytalks.txt file ic re-created every 1 minute by feeding Zippy
+fortunes into it with a simple shell script.
+
+CGI.pm is no longer part of core Perl so you will need to install it.
+
+
+=head1 AUTHOR
+
+RAT - L<http://www.robert3t.com/perl/>
+
+=cut
